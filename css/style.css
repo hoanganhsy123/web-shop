@@ -23,6 +23,8 @@
 }
 .logo .mg-icon li a {
     padding: 0 30px;
+    color: #333333;
+    padding-right: 15;
 }
 .boder {
     border: none;
@@ -86,7 +88,7 @@
 }
 .pd-col .pd-card-body .color-1 {
     color: #333333;
-    font-size: 15px;
+    font-size: 14px;
     text-transform: uppercase;
 }
 .pd-col .pd-card-body .color-2{
@@ -163,7 +165,7 @@
     font-size: 25px;
     text-transform: uppercase;
     color: #ffffff;
-    padding-top: 21px;
+    padding-top: 19px;
 } 
 .pd-col-6 .boder-none .text p {
     color: #ffffff;
@@ -178,4 +180,49 @@
     background-color: #3cb878;
     border-color: #3cb878 ;
     border-radius: 0;
+}
+.pd-col-6 .text {
+    border-radius: none;
+}
+.pd-col-6 .text .text-center p{
+    padding: 1% 0;
+}
+.boder-col-6 {
+    border: 1px solid rgba(0,0,0,.125);
+}
+.pd-col-6 .pd-ul {
+    padding: 2% 0;
+}
+.pd-col-6 .pd-ul .mg-50 {
+    margin: 0 35%;
+}
+.pd-col-6 .pd-ul .mg-50 li {
+    padding: 0 10%;
+    
+}
+.pd-col-6 .pd-ul .mg-50 li a{
+    color: #464646;
+}
+.group {
+    margin-top: 50px;
+}
+.title-group p{
+    padding-left: 11%;
+    text-transform: uppercase;
+    color: #464646;
+}
+.group .boder-with  li{
+    border-width: 0 ;
+}
+.color-p li p {
+    color: #545454;
+    padding-top: 10px;
+    font-size: 19px;
+}
+.pd-a {
+    margin-left: 50%;
+}
+.pd-a li a {
+    padding: 3% 10px;
+    font-size: 30px;
 }

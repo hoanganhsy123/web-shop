@@ -36,20 +36,23 @@
 }
 .boder .mg-left-card .mg-top-h5{
     margin-top: 280px;
-    font-size: 60pt;
+    font-size: 40px;
     color: #333;
 }
 .boder .mg-left-card .font-h6 {
-    font-size: 60pt;
+    font-size: 40px;
     color: #3cb878;
 }
 .boder .mg-left-card .mg-bottom-button {
-    margin-bottom: 277px;
+    margin-bottom: 20%;
     padding: 12px 24px;
+    border-left: 0;
+    border-radius: 10px;
 }
 .boder .mg-left-card p {
-    font-size: 16pt;
+    font-size: 19px;
     color: #333;
+    padding-bottom: 10px;
 }
 /* .row{
     border: none;
@@ -62,10 +65,10 @@
 .boder-none {
     border: none ;
 }
-.pd-col .boder-none .pd-top-card-body {
+/* .pd-col .boder-none .pd-top-card-body {
     padding-top: 25%;
     margin-left: -40%;
-}
+} */
 .pd-col .boder-none .pd-top-card-body .font-h5{
     font-size: 20pt;
     color: #333333;

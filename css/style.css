@@ -176,7 +176,7 @@
     /* padding: 7px 0; */
 }
 .pd-col-6 .boder-none .text .form .pd-form .pd-email {
-    padding-right: 50%;
+    padding-right: 100px;
     border-radius: 0;
 }
 .pd-col-6 .boder-none .text .form .boder-button {
@@ -229,3 +229,10 @@
     padding: 3% 10px;
     font-size: 30px;
 }
+.pd-none {
+    padding: 0;
+}
+.full-width {
+    width: 100%;
+}
+

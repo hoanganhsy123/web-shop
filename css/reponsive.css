@@ -1,0 +1,12 @@
+@media screen and (min-width: 375px)
+{
+    .pd-col-6 .pd-ul .mg-50 {
+        margin: 0% auto;
+    }    
+    .title-group p {
+        padding-left: 4%;
+        text-transform: uppercase;
+        color: #464646;
+        font-weight: bold;
+    }
+}

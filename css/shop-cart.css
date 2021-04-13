@@ -1,0 +1,8 @@
+.style-control{
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
+}
+.table thead th {
+    vertical-align:inherit;
+}

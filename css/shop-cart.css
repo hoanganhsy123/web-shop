@@ -6,3 +6,8 @@
 .table thead th {
     vertical-align:inherit;
 }
+tr td .style-btn {
+    font-size: 12px;
+    float: right;
+    display: block;
+}

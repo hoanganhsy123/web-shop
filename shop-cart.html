@@ -29,7 +29,7 @@
               </li>
               <li class="nav-item">
                   <a class="nav-link" href="#">info@company.com</a>
-              </li>
+              </li> 
           </ul>
           <ul class="navbar-nav ml-auto">
               <li class="nav-item">
@@ -176,40 +176,71 @@
       <div class="row">
         <div class="col-sm-6">
           <h5>USE COUPON CODE</h5>
-          <label for="basic-url" class="form-label">Enter You coupon Here</label>
-          <div class="input-group mb-3">
-          <input type="text" class="form-control" placeholder="Enter You coupon Here" aria-label="Recipient's username" aria-describedby="basic-addon2">
-          <span class="input-group-text" id="basic-addon2">APPLY</span>
+          <label for="basic-url" class="form-label ">Enter You coupon Here</label>
+          <div class="input-group mb-3 input-group-left">
+            <input type="text" class="form-control" placeholder="Enter You coupon Here" aria-label="Recipient's username" aria-describedby="basic-addon2">
+            <a href="">
+              <span class="input-group-text input-apply" id="basic-addon2">APPLY</span>
+            </a>  
         </div>
 
         </div>
         <div class="col-sm-6">
-          <h5>USE GIFT VOUCHER</h5>
-          <label for="basic-url" class="form-label">Enter You Gift Voucher Code Here </label>
-          <div class="input-group mb-3">
-          <input type="text" class="form-control" placeholder="Enter You Gift Voucher Code Here" aria-label="Recipient's username" aria-describedby="basic-addon2">
-          <span class="input-group-text" id="basic-addon2">APPLY</span>
-        </div>
+          <h5 class="h5-voucher">USE GIFT VOUCHER</h5>
+          <label for="basic-url" class="form-label form-enter">Enter You Gift Voucher Code Here </label>
+          <div class="input-group mb-3 input-group-right">
+            <input type="text" class="form-control" placeholder="Enter You Gift Voucher Code Here" aria-label="Recipient's username" aria-describedby="basic-addon2">
+            <a href="">
+              <span class="input-group-text input-apply" id="basic-addon2">APPLY</span>
+            </a> 
+          </div>
         </div>
       </div>
     <div class="container">
       <div class="row">
-        <div class="col-sm-6">
-          <h5>SHIPPING AVAILABILITY</h5>
-          <label for="inputState" class="form-label">Select Country</label> <br>
-          <select id="inputState" class="form-select style-select">
-            <option selected>Viêt Nam</option>
-            <option>...</option>
-          </select> <br>
-          <label for="inputState" class="form-label">Select State</label> <br>
-          <select id="inputState" class="form-select style-select">
-            <option selected>TP.HCM</option>
-            <option>...</option>
-          </select> <br>
-          <label for="inputAddress2" class="form-label">Postcode/Zip</label>
-          <input type="text" class="form-control" id="inputAddress2" placeholder="Postcode/Zip">          
-          <button type="submit" class="btn btn-primary">UPDATE TOTAL</button>
-          
+          <div class="col-sm-5 ">
+              <h4>SHIPPING AVAILABILITY</h4>
+              <label for="inputState" class="form-label">Select Country</label> <br>
+              <select id="inputState" class="form-select ">
+                  <option selected>Viêt Nam</option>
+                  <option>...</option>
+              </select> <br>
+              <label for="inputState" class="form-label">Select State</label> <br>
+              <select id="inputState" class="form-select ">
+                  <option selected>TP.HCM</option>
+                  <option>...</option>
+              </select> <br>
+              <label for="inputAddress2" class="form-label">Postcode/Zip</label>
+              <input type="text" class="form-control" id="inputAddress2" placeholder="Postcode/Zip">          
+              <button type="submit" class="btn btn-primary ">UPDATE TOTAL</button>
+        </div>
+        <div class="col-sm-2"></div>
+        <div class="col-sm-5 ">
+              <h4>SHOPPING CART CALCUATION</h4>
+              <table class="table table-borderless table-main ">
+                <tbody>
+                  <tr>
+                    <td scope="col">Subtotal</td>
+                    <td scope="col" class="td-right">450$</td>
+                  </tr>
+                </tbody>
+                <tbody>
+                  <tr>
+                    <td>Coupon</td>
+                    <td class="td-right">-50$</td>
+                  </tr>
+                  <tr>                
+                    <td>Shipping</td>
+                    <td class="td-right">Free Shipping</td>
+                  </tr>
+                  <tr class="table-main-tr" >
+                    <td >Total</td>
+                    <td class="td-right">400$</td>
+                  </tr>
+                </tbody>
+              </table>
+              <button type="submit" class="btn btn-primary button-checkout ">PROCEED TO CHECKOUT</button>
+
         </div>
       </div>
     </div>

@@ -11,3 +11,39 @@ tr td .style-btn {
     float: right;
     display: block;
 }
+.input-group-left{
+    width: 83%;
+    float: left;
+}
+.input-group-right{
+    width: 83%;
+    float: right;
+}
+.style-button {
+    color: gray;
+    margin-left: 30%;
+}
+.submit{
+    background-color: honeydew;
+    border-color: honeydew;
+    color: black;
+}
+
+.form-select{
+    width: 100%;
+    padding: 1.5%;
+    margin: 2.5% 0;
+}
+.row .col-sm-5 .btn-primary{
+    margin: 5% 0 30% 0;
+    background-color: none;
+}
+.button-checkout{
+    float: right;
+    background-color: rgb(60, 184, 120);
+
+}
+.table-main {
+    border: 1px solid;
+    margin-top: 5%;
+}

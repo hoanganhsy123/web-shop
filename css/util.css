@@ -43,39 +43,8 @@ span {
 .h5-voucher{
     padding-left : 17%;
 }
-.input-group-left{
-    width: 83%;
-    float: left;
-}
-.input-group-right{
-    width: 83%;
-    float: right;
-}
-.style-button {
-    color: gray;
-    margin-left: 30%;
-}
-.submit{
-    background-color: honeydew;
-    border-color: honeydew;
-    color: black;
-}
 .input-apply{
     background-color: rgb(60, 184, 120);
-}
-.form-select{
-    width: 100%;
-    padding: 1.5%;
-    margin: 2.5% 0;
-}
-.row .col-sm-5 .btn-primary{
-    margin: 5% 0 30% 0;
-    background-color: none;
-}
-.button-checkout{
-    float: right;
-    background-color: rgb(60, 184, 120);
-
 }
 h5{
     padding: 5% 0;
@@ -83,9 +52,6 @@ h5{
 h4{
     padding: 5% 0;
 }
-.table-main {
-    border: 1px solid;
-    margin-top: 5%;
 }
 .table-main tbody .table-main-tr{
     border-top: 1px solid;

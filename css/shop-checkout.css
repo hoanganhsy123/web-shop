@@ -1,0 +1,46 @@
+.container-form{
+   margin-top: 5%;
+   margin-bottom: 10%;
+}
+.row-check{
+   margin: 0;
+}
+.span{
+    color: #ff0000;
+}
+.col-name{
+    padding: 0;
+}
+.form-label{
+    margin: 3% 0;
+}
+.form-oder{
+    border: solid 1px;
+    
+}
+span.price{
+    float: right;
+    color: #000;
+    font-size: 16px;
+}
+p.p-note{
+    background-color: gray;
+    opacity: 0.8;
+}
+p.p-casual {
+    padding: 5% 0;
+}
+h4.total{
+    border-bottom: solid 3px;
+}
+.form-checkout{
+    padding: 5% 6%;
+}
+.input-oder{
+   
+    float: right;
+    padding: 3% 3%;
+}
+.input-group-text-oder{
+    background-color: #3cb878;
+}

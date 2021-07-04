@@ -1,0 +1,23 @@
+.infomation{
+    margin-bottom: 15%;
+}
+tr th img{
+    margin: 14% 0 !important;
+}
+.icon-star{
+    color: rgb(60, 184, 120);
+}
+tr th button {
+    margin-bottom: 10px;
+    border: solid 1px gainsboro !important;
+    background-color: none !important;
+    color: rgb(12, 11, 11) !important;
+}
+tr th .btn-mid{
+    background-color: rgb(60, 184, 120);
+}
+.icon-done-add{
+
+    color: black;
+    font-size: 25px;
+}
